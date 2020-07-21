@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    opacity: 0.6;
+    
+
+ 
+}
+.navbar::before{
+    content: "";
+    
+}
+.hell{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+
+}
+.box a{
+    text-decoration: none;
+    padding: 22px;
+    font-size: 19px;
+    color: white;
+}
+.box a:hover{
+    color: khaki;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 22px;
+    border: 2 px solid black;
+    
+    
+}
+#middle{
+    text-align: center;
+    background-image: url(img/ho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    opacity: 0.8;
+    border: 2px solid black;
+    
+    
+}
+#middle h1 {
+    padding-bottom: 22px;
+    padding-top: 170px;
+    font-size: xx-large;
+    
+    
+}
+#middle p{
+    font-size: 17px;
+    font-family: cursive;
+}
+#btn{
+    margin: 4px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: chartreuse;
+}
+article h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    margin: 12px;
+}
+.null{
+    border: 2px solid black;
+    margin: 4px;
+    border-radius: 18px;
+    background-color: rgb(224, 224, 184);
+}
+.null p{
+    margin: 4px;
+}
+.io{
+    text-align: center;
+    
+}
+.op{
+    text-align: center;
+}
+.yo{
+    text-align: center;
+
+}
+.ss{
+    
+}
+.res{
+   text-align: center;
+   border: 2px solid black;
+   background-image: url(img/ho.jpg);
+     
+   
+}
+.res img{
+    margin: 14px;
+ 
+}
+.Name{
+    width: 520px;
+    height: 24px;
+    margin: 4px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.mess{
+    margin: 2px;
+    height: 70px;
+    width: 520px;
+    background-color: white;
+}
+#bt{
+    text-align: center;
+    margin: 4px;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 22px;
+    padding:9px;
+}
+#bt:hover{
+    background-color: chartreuse;
+}
+.last{
+    margin-top: 26px;
+    background-image:url(img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid black ;
+   
+
+}
+
